@@ -19,4 +19,6 @@ lets see some of the  example:-
 */
 
 let Name="Anurag singh";
-console.log(typeof Name);
+console.log(typeof Name);// The required output of this line of the code is String.
+
+console.log(typeof null); //The output of this line of code is Object..
