@@ -8,6 +8,7 @@
 5.undefined
 6.symbol
 7.objects
+8.NAN(It stands for Not a Number)
 
 
 If we want to check the data types of the variable or any value in that case we use our type of operator:-
@@ -20,5 +21,6 @@ lets see some of the  example:-
 
 let Name="Anurag singh";
 console.log(typeof Name);// The required output of this line of the code is String.
+console.log(typeof(Name));
 
 console.log(typeof null); //The output of this line of code is Object..
