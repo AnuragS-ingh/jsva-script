@@ -36,7 +36,9 @@ Same thing goes with the (undefined);
 /*
 ***********OPERATION IN THE JAVA SCRIPT********************************
 there are various types of the operation some of them are given below:-
-*/
+
+1.Arthematic operator:-
+
 
 // console.log(2+3);
 // console.log(3-2);
@@ -51,3 +53,17 @@ there are various types of the operation some of them are given below:-
 
 console.log(1+true);// this will return 2
 console.log(+true)// This will return 1
+
+2.comparision operator
+
+comparision operator helps us to compare two values. There are various types of the comaparision operator and they are given below:
+
+grater than(>)
+less than(<)
+equal to(==)
+strictly equal to(===)// this operator compares both the value and the data type of the value
+grater than equal to(>=)
+less than equal to(<=)
+not equal to(!=)
+
+*/
