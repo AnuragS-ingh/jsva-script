@@ -5,7 +5,7 @@ there are few rules for the conversion:
 1.If we want to convert the string which contain letter or alphabets in to the number then it will give NAN (Not a Number)
 Similarly if we want to conver the string that contain both number and alphabet to number then also we will get the NAN.
 Same thing goes with the (undefined);
-*/
+
 
 // let Name=undefined;
 // // let neew =Number(Name);
@@ -32,8 +32,16 @@ Same thing goes with the (undefined);
 // // so in the above case when we convert the null into number it returned us the value 0;
 // console.log(typeof(num2))
 
+let Name=undefined;
+let convert=Number(Name)
+console.log(convert);//When ever we convert the undefined in the number then the output will be NAN
+
+*/
+
 
 /*
+
+
 ***********OPERATION IN THE JAVA SCRIPT********************************
 there are various types of the operation some of them are given below:-
 
@@ -67,3 +75,4 @@ less than equal to(<=)
 not equal to(!=)
 
 */
+

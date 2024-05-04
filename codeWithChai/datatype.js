@@ -4,8 +4,8 @@
 1.Number
 2.String
 3.Boolean
-4.Null
-5.undefined
+4.Null  [Null is the stand alone value....]
+5.undefined [Undefined means the value of the variable is not initialized]
 6.symbol
 7.objects
 8.NAN(It stands for Not a Number)
