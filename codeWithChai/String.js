@@ -74,9 +74,35 @@ console.log(Name.toLowerCase()) -> Here we will get the output "shitesh", each a
 the lower case.
 
 
-6.  done up to 15:16 of the string in the javascript..
+6.   .substring(a,b):
+ => This method is used to divide or get the small part of the string i.e it is used to get the subset of the string. In this me-
+ thod we have two parameters one is a(starting index)->from where you want to start and
+ second is b(ending index)-> up to where you want to end, in this the starting index is included and the ending index is excluded, meaning 
+ that it will return one index less than the ending index.
+
+ one thing is to be noted in this method that it donot take negative indexing although string support negative indexing in the 
+ java script.
+
+ for example:
+
+ let city = "Biratnagar";
+ console.log(city.substring(2,9)) => Then we will get the output as "ratnaga", here we noticed that the character 'r' is excluded
+ as it is at 9th index , and i have already told you that the last or ending index is excluded.
+
+
+
+
+7.  .slice(a,b):
+=> This method also work as the substring() method the only difference between them is that this "slice()" method support the
+negative indexing.
+
+for example:
+
+let city="Biratnagar";
+console.log(city.slice(-1,4))
+
+*********this need to be explored some more exploration
 */
 
-let city = "Biratnagar";
-
-console.log(city.charAt(20));
+let city="Biratnagar"
+console.log(city.slice(-1,-5))
