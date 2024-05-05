@@ -89,6 +89,7 @@ the lower case.
  console.log(city.substring(2,9)) => Then we will get the output as "ratnaga", here we noticed that the character 'r' is excluded
  as it is at 9th index , and i have already told you that the last or ending index is excluded.
 
+ *********this need to be explored some more exploration********************
 
 
 
@@ -101,8 +102,38 @@ for example:
 let city="Biratnagar";
 console.log(city.slice(-1,4))
 
-*********this need to be explored some more exploration
+*********this need to be explored some more exploration****************************
+
+
+
+
+8. .trim():
+=> This is the another method of the string, this method is used to eliminate the space from the start and from the end of the s
+tring.
+
+for example:
+let city="    Biratnagar     "
+console.log(city)=> The output will be "   Biratnagar    ";
+console.log(city.trim())=> The out put will be "Biratnagar"
+
+
+
+9.  .replace():
+=> This method is used to replace any character or any word of the string with some of the other word. But thing to be taken 
+care of is that it only replace the first occurance of that character.
+for example:
+let city="    Biratnagar     "
+console.log(city.replace("a",'b'));=> Output will be "Birbtnagar".
+
+10.  .include():-
+=> This method is used to find whether the word or the character exist in the string or not .if the word or the character exist 
+then this method return true else false.
+
+let city="Biratnagar"
+console.log(city.includes("a"));=> The output will be true
+console.log(city.includes("h"));=> The output will be false...
+
 */
 
 let city="Biratnagar"
-console.log(city.slice(-1,-5))
+console.log(city.includes("a"));
